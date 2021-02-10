@@ -11,11 +11,15 @@ export class CatService {
   constructor(private httpClient: HttpClient) { }
 
   getCatPic(): any {
-    return this.httpClient.get(`https://api.thecatapi.com/images/search?mime_types=jpg,png`);
+    return this.httpClient.get(`https://api.thecatapi.com/v1/images/search`,
+      // {
+      //   params: { api_key: this.apiKey }
+      // }
+    );
   }
 
-  getCatGif(): any {
-    return this.httpClient.get(`https://api.thecatapi.com/images/search?mime_types=gif`);
-  }
+  // getCatGif(): any {
+  //   return this.httpClient.get(`https://api.thecatapi.com/images/search?mime_types=gif`);
+  // }
 
 }

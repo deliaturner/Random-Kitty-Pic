@@ -1,0 +1,6 @@
+<main>
+  <button (click)="getPic()">Click Me!</button>
+  <div *ngIf="firstCat" class="cat-container">
+    <img src="{{ pic }}" alt="cat" />
+  </div>
+</main>
