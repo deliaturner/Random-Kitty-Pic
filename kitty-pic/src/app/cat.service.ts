@@ -11,7 +11,7 @@ export class CatService {
   constructor(private httpClient: HttpClient) { }
 
   getCatPic(): any {
-    return this.httpClient.get(`https://api.thecatapi.com/v1/images/search`,
+    return this.httpClient.get(`https://api.thecatapi.com/v1/images/search?mime_types=jpg,png`,
       // {
       //   params: { api_key: this.apiKey }
       // }
