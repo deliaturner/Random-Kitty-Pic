@@ -6,7 +6,7 @@ main {
 
 button {
   margin-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: white;
   border-radius: 5px;
   border: 1px solid gray;
   padding: 10px;
@@ -19,4 +19,16 @@ button {
 
 img {
   width: 300px;
+}
+
+button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
 }
