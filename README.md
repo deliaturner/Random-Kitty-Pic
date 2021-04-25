@@ -1,3 +1,5 @@
 # Random-Kitty-Pic
-API Call.
-I made this for a student of mine who loves cats. Also, I get to practice with another API :)
+
+Angular with API
+
+I made this for a student of mine who loves cats. She called it "godly," so I take this as a win :)
